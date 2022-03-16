@@ -1,0 +1,151 @@
+{
+  "abi": [{
+      "inputs": [],
+      "name": "pegPrice",
+      "outputs": [{
+        "internalType": "uint256",
+        "name": "_pegPrice",
+        "type": "uint256"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sync",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pause",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "unpause",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "address",
+        "name": "_mamm",
+        "type": "address"
+      }],
+      "name": "setNewMAMM",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "address",
+        "name": "_mmf",
+        "type": "address"
+      }],
+      "name": "setNewMMF",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "uint256",
+        "name": "_pegPrice",
+        "type": "uint256"
+      }],
+      "name": "setNewPegPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "uint256",
+        "name": "_duration",
+        "type": "uint256"
+      }],
+      "name": "setNewDuration",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+          "internalType": "uint256",
+          "name": "_mmfRewardsAllocation",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_rainyDayFundAllocation",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_protocolFeeAllocation",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_rainyDayFundVault",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_protocolFeeVault",
+          "type": "address"
+        }
+      ],
+      "name": "setNewAllocation",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "address",
+        "name": "_coreController",
+        "type": "address"
+      }],
+      "name": "setNewCoreController",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "reorders",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "rainyDayFundVault",
+      "outputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "protocolFeeVault",
+      "outputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
