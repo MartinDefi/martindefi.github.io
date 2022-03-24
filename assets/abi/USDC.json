@@ -31,6 +31,17 @@
     {
       "anonymous": false,
       "inputs": [{
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      }],
+      "name": "Claim",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [{
           "indexed": true,
           "internalType": "address",
           "name": "_from",
@@ -90,11 +101,48 @@
     },
     {
       "inputs": [],
+      "name": "claimAmount",
+      "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "claimPeriod",
+      "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
       "name": "decimals",
       "outputs": [{
         "internalType": "uint8",
         "name": "",
         "type": "uint8"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }],
+      "name": "lastClaimTimes",
+      "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
       }],
       "stateMutability": "view",
       "type": "function"
@@ -130,6 +178,13 @@
         "type": "uint256"
       }],
       "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "claim",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
