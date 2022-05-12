@@ -222,6 +222,17 @@
       "type": "function"
     },
     {
+      "inputs": [],
+      "name": "TRANSFER_ROLE",
+      "outputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "inputs": [{
           "internalType": "address",
           "name": "owner",
@@ -687,6 +698,17 @@
         "type": "address"
       }],
       "name": "setNewAdmin",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+        "internalType": "address[]",
+        "name": "_newTransferAddrs",
+        "type": "address[]"
+      }],
+      "name": "setNewTransferAddrs",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
