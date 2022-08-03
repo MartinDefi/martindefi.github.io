@@ -11,6 +11,10 @@
     {
       "type": "A",
       "text": "The use-to-earn module will listen to your interaction with TiUSD-TiTi trading pairs on uniswap and calculate your total transaction volume buying TiTi. Subsequently, the protocol will calculate how many rewards you'll earn according to your proportion against all users' transaction volume buying TiTi in the past 24 hrs. Moreover, the protocol will restart the rewards distribution calculation every 24 hrs."
+    },
+    {
+      "type": "A",
+      "text": "Keep in mind that you can only claim the rewards during Dash Days starting from UTC 12:00 a.m. Aug 29th  to Aug 30th."
     }
   ],
   "metadata": [{
@@ -29,7 +33,7 @@
       "type": "decimal"
     },
     {
-      "lable": "Your Pending Rewards",
+      "lable": "Your Distributed Rewards",
       "uuid": "claimableRewards",
       "type": "decimal"
     }

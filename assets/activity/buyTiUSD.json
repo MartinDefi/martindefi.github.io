@@ -1,25 +1,27 @@
 {
   "name": "Buy TiUSD in MAMM",
-  "description": [
-    {
-      "type":"Q",
-      "text":"How does use-to-earn reward you if you buy TiUSD in TiTi-AMMs?"
+  "description": [{
+      "type": "Q",
+      "text": "How does use-to-earn reward you if you buy TiUSD in TiTi-AMMs?"
     },
     {
-      "type":"A",
-      "text":"In principle, the more TiUSD you bought from TiTi-AMMs, the more rewards you will earn."
+      "type": "A",
+      "text": "In principle, the more TiUSD you bought from TiTi-AMMs, the more rewards you will earn."
     },
     {
-      "type":"A",
-      "text":"The use-to-earn rewards stems from community incentive allocation. Besides, the Rewards will be distributed to you in a linear way, and you can claim the rewards whenever you want."
+      "type": "A",
+      "text": "The use-to-earn rewards stem from community incentive allocation. Besides, the Rewards will be distributed to you in a linear way. Keep in mind that you can only claim the rewards during Dash Days starting from UTC 12:00 a.m. Aug 29th  to Aug 30th."
     },
     {
-      "type":"A",
-      "text":"The use-to-earn rewards stems from community incentive allocation. Besides, the Rewards will be distributed to you in a linear way, and you can claim the rewards whenever you want."
+      "type": "A",
+      "text": "The displayed distributed reward is actually the accumulated TiTi Rewards, which increases everyday if you keep buying TiUSD in TiTi-AMMs. "
+    },
+    {
+      "type": "A",
+      "text": "Every 24 hours @UTC 12:00 a.m. the displayed expected rewards will reset to 0. Then the displayed expected TiTi Rewards  will show how many TiTi you’ve earned exactly after the reset from the current time according to your proportion against all users' transaction volume buying TiTi using mUSDC in the past 24 hrs."
     }
   ],
-  "metadata": [
-    {
+  "metadata": [{
       "lable": "Current Period Progress",
       "uuid": "activityProgress",
       "type": "processbar"
@@ -35,7 +37,7 @@
       "type": "decimal"
     },
     {
-      "lable": "Your Pending Rewards",
+      "lable": "Your Distributed Rewards",
       "uuid": "claimableRewards",
       "type": "decimal"
     }

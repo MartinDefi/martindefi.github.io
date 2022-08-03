@@ -30,7 +30,7 @@
       "type": "decimal"
     },
     {
-      "lable": "Your Pending Rewards",
+      "lable": "Your Distributed Rewards",
       "uuid": "claimableRewards",
       "type": "decimal"
     }
