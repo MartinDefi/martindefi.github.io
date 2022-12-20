@@ -10,7 +10,7 @@
     },
     {
       "type": "A",
-      "text": "The use-to-earn rewards stem from community incentive allocation. Besides, the Rewards will be distributed to you in a linear way. "
+      "text": "The use-to-earn rewards stem from community incentive allocation. Besides, the Rewards will be distributed to you in a linear way. Keep in mind that you can only claim the rewards during Dash Days starting from UTC 12:00 a.m. Dec 20, 2022  to UTC 12:00 a.m. Jan 4, 2023."
     },
     {
       "type": "A",
@@ -18,7 +18,7 @@
     },
     {
       "type": "A",
-      "text": "Every 24 hours @UTC 12:00 a.m. the displayed expected rewards will reset to 0. Then the displayed expected TiTi Rewards  will show how many TiTi you’ve earned exactly after the reset from the current time according to your proportion against all users' transaction volume buying TiTi using mUSDC in the past 24 hrs."
+      "text": "Every 24 hours @UTC 12:00 a.m. the displayed expected rewards will reset to 0. Then the displayed expected TiTi Rewards  will show how many TiTi you've earned exactly after the reset from the current time according to your proportion against all users' transaction volume buying TiTi using mUSDC in the past 24 hrs."
     }
   ],
   "metadata": [{

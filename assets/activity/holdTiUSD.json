@@ -12,6 +12,10 @@
     {
       "type":"A",
       "text":"The use-to-earn module will scan per second your TiUSD balance and calculate how many rewards you'll earn in the same way as a staking pool does. Hence, the rewards will be distributed to you as per seconds."
+    },
+    {
+      "type":"A",
+      "text":"Keep in mind that you can only claim the rewards during Dash Days starting from UTC 12:00 a.m. Dec 20, 2022  to UTC 12:00 a.m. Jan 4, 2023."
     }
   ],"metadata": [
     {
